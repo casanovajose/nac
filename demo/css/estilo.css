@@ -1,0 +1,11 @@
+header{
+	height: 150px;
+}
+
+#contenedor {
+	min-height: 450px;
+}
+
+footer {
+	height: 100px;
+}
