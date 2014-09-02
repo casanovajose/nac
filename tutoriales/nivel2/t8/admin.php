@@ -10,25 +10,28 @@ session_start();
   
 </head>
 <body>
-	<h1></h1>
+	<h1>José Casanova | Tutorial 8 | Manejo de sesiones</h1>
 	
-	<p>
-	<?php
-	 if(  $_SESSION['logueado'] ){
-		if($_SESSION['rol'] == 'admin' ){
-			echo 'Buenos Días '.$_SESSION['usuario'];
-		}else{
-			echo 'No tienes privilegios para estar aquí';
-		}
+	<h2>Perfil 'administrador' </h2>
+	
+	<p>	u
+		<?php
+			if(  $_SESSION['logueado'] ){
+				if($_SESSION['rol'] == 'admin' ){
+					echo 'Buenos Días '.$_SESSION['usuario'];
+				}else{
+					echo 'No tienes privilegios para estar aquí';
+				}
 		
 		
-	 }else{
-		header('Location: index.php');
-	 }
-	?>
-	</p>
+			}else{
+				header('Location: index.php');
+			}
+		?>
+	</p>	
 	
 	<a href="logout.php">cerrar sesión</a>
 	
 </body>
 </html>
+
