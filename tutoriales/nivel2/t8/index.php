@@ -14,9 +14,7 @@ if( isset ( $_POST['enviar'] ) ){
 
 	foreach( $usuarios as $u ){
 		if( $u['usuario'] == $login  ){
-			$_SESSION['logueado'] = true;  
-			$_SESSION['usuario'] = $u['usuario'];
-			$_SESSION['rol'] = $u['rol'];	
+			
 		}
 	}
 	

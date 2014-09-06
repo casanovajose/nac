@@ -1,0 +1,5 @@
+*.png -crlf -diff
+*.jpg -crlf -diff
+*.bmp -crlf -diff
+*.pdf -crlf -diff
+*.doc -crlf -diff
