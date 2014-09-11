@@ -53,3 +53,5 @@ local.properties
 .cproject
 # PDT-specific
 .buildpath
+/ejemplos/nbproject/private/
+/tutoriales/nivel1/nbproject/private/
