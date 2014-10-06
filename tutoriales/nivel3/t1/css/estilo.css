@@ -1,0 +1,82 @@
+header, nav, footer, article {display:block;}
+
+
+body{
+	background-color: #666666;
+	color: #FFFFFF;
+	font: normal 100%/1em "Trebuchet MS", Georgia, "Times New Roman", serif;
+	text-align: center;
+        margin-top: 15px;
+        /*overflow:auto;*/
+	
+}
+
+a { text-decoration: none;}
+
+i { font-style:italic; }
+
+strong { font-weight:bold; }
+
+small { font-size: 0.625em; }
+
+
+header{
+   
+	width: 960px;
+	height: 120px;
+	margin: auto;
+	clear:both;
+        background: #333;
+	border: solid #ABC18C  2px;
+	padding:5px;
+}
+
+header h1{
+    font-size: 2.375em;
+    width: 100px;
+    padding: 20px;
+    
+}
+
+nav {
+   width: 75%;
+   margin: auto;
+   outline: solid red 1px;
+   
+}
+
+nav a:link, nav a:visited{
+    display: inline;
+    width: 100px;
+    background: #ABC18C;
+    padding: 5px;
+    color: #FFF;
+}
+
+nav a:hover, nav a:active{
+    display: inline;
+    background: #ABC18C;
+    padding: 5px;
+    color: #666;
+}
+
+
+footer{
+    	width: 960px;
+	height: 80px;
+	margin: auto;
+	clear:both;
+        background: #333;
+	border: solid #ABC18C  2px;
+	padding:5px;
+}
+
+article{
+    min-height: 200px;
+    width: 960px;
+    margin: 20px auto;
+    padding: 5px;
+    background: #333;
+    border: solid #ABC18C  2px;
+}
+

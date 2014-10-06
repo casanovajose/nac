@@ -55,3 +55,11 @@ local.properties
 .buildpath
 /ejemplos/nbproject/private/
 /tutoriales/nivel1/nbproject/private/
+/tutoriales/nivel3/nbproject/private/
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
