@@ -63,3 +63,5 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+/tutoriales/nivel3/t3/js/lib/
+/validacion/nbproject/private/

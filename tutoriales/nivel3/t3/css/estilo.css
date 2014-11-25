@@ -1,0 +1,171 @@
+header, nav, footer, article {display:block;}
+
+
+body{
+    background-color: #666666;
+    color: #FFFFFF;
+    font: normal 100%/1em "Vedana","Helvetica", sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    /*overflow:auto;*/
+
+}
+
+a { text-decoration: none;}
+
+i { font-style:italic; }
+
+strong { font-weight:bold; }
+
+small { font-size: 0.625em; }
+
+h2 {
+    font-size: 2em;
+    padding: 20px;
+}
+
+header{
+
+    width: 960px;
+    height: 120px;
+    margin: auto;
+    clear:both;
+    background: #333;
+    border: solid #ABC18C  2px;
+    padding:5px;
+}
+
+header h1{
+    font-size: 2.375em;
+    width: 100px;
+    padding: 20px;
+
+    /*outline: solid red 1px;*/
+
+}
+
+nav {
+    width: 75%;
+    /*margin: 0;*/ 
+
+}
+
+nav ul{
+    /*outline: solid red 1px;*/
+    margin: 10px 0 0 85px;
+
+}
+
+nav li{
+    display: inline;
+    margin: 5px;
+    /*outline: solid red 1px;*/
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    background: #ABC18C;
+}
+
+nav a:link, nav a:visited{   color: #FFF;}
+nav a:hover, nav a:active{   color: #666;}
+
+
+footer{
+    width: 960px;
+    height: 80px;
+    margin: auto;
+    clear:both;
+    background: #333;
+    border: solid #ABC18C  2px;
+    padding:5px;
+}
+
+footer p{
+    margin-bottom: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color:#ABC18C;
+    margin:0px 15px; 
+
+}
+
+article{
+    min-height: 200px;
+    width: 960px;
+    margin: 20px auto;
+    padding: 5px;
+    background: #333;
+    border: solid #ABC18C  2px;
+}
+
+
+table{
+    border: solid 1px;
+    margin: 15px auto;
+
+}
+
+th{
+    padding: 4px;
+    border: solid 1px;
+    font-weight: bold;
+    max-width: 250px;
+}
+
+td{
+    padding: 4px;
+    border: solid 1px;
+    max-width: 200px;
+}
+
+#menu_actividades{
+    min-height: 50px;
+    margin: auto;
+    /*outline: solid red 1px;*/
+    font-size: 0.750em;
+    width: 43%;
+}
+
+#menu_actividades  a{
+    background: #ff4c4c;
+}
+
+div.ui-datepicker{
+    font-size:0.625em;
+}
+
+form {
+    width:40%;
+    margin: 10px auto;
+ }
+#nueva_actividad label{
+    text-align: left;
+    width: 155px;
+    display: block; 
+    margin: 12px 0 0;
+    float: left;
+    clear: left;
+    /*color: #ABC18C;*/
+   
+
+}
+
+#nueva_actividad input{
+    width: 30%; 
+    margin: 10px 0 0;
+    padding: 5px;
+    text-align: left;
+}
+
+#nueva_actividad textarea{
+    width: 70%;
+    margin: 10px 0 0;
+    padding: 5px;
+    text-align: left;
+}

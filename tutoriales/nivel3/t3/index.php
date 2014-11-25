@@ -2,9 +2,9 @@
 <html dir="ltr" lang="es">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="css/estilo.css" />
-       
+        <?php
+            require_once('recursos.php');
+        ?>
         <title>NACtilus | Inicio</title>
         
     </head>

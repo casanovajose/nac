@@ -19,6 +19,10 @@ strong { font-weight:bold; }
 
 small { font-size: 0.625em; }
 
+h2 {
+    font-size: 2em;
+    padding: 20px;
+}
 
 header{
    
@@ -101,3 +105,22 @@ article{
     border: solid #ABC18C  2px;
 }
 
+
+table{
+    border: solid 1px;
+    margin: 15px auto;
+    
+}
+
+th{
+   padding: 4px;
+   border: solid 1px;
+   font-weight: bold;
+   max-width: 250px;
+}
+
+ td{
+    padding: 4px;
+    border: solid 1px;
+    max-width: 200px;
+}
